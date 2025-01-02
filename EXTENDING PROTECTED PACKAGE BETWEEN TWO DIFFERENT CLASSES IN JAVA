@@ -1,0 +1,20 @@
+//INPUT
+package akhilesh;
+public class A{
+  protected void show(){
+        System.out.println("Learn Coding");
+    }
+}
+package ankush;
+import akhilesh.A;
+class C extends A{
+    public static void main(String[] args){
+        C r=new C();
+        r.show();
+    }
+    
+}
+//OUTPUT
+Learn Coding
+A new folder named as ankush would be created 
+with file named C.class
